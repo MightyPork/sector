@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    
+    <!-- This file indicates the loading order of all the sibling files. -->
+        
+    <drivers>
+        <file>base.xml</file>
+        <file>burger.xml</file>
+        <file>fighter.xml</file>
+        <file>falcon.xml</file>
+        <file>bird.xml</file>
+        <file>shark.xml</file>
+        <file>cube.xml</file>
+        <file>powerup.xml</file>
+        <file>mine.xml</file>
+    </drivers>
+    
+</manifest>

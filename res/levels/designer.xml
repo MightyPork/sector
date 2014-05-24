@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+
+	<info>
+		<title>Ship Building Site</title>
+		<subtitle>Infinite money!</subtitle>
+		<author>MightyPork</author>
+		<minv>15</minv>
+	</info>
+
+
+
+	<config>
+		<building>FREE</building>
+		<timer>30</timer>
+	</config>
+
+	
+	<discoveries>
+		<all level="max" />
+	</discoveries>
+
+
+	<sequence>
+		
+		<rockshift coord="0;-1" />
+	
+		<rockgen id="rocks1" >
+			<type num="0" />
+			<size range="2-8" />
+			<speed num="1" />
+			<rarity num="40" />
+			<x range="-30:-18" />
+			<z range="100-120" />
+		</rockgen>
+	
+		<rockgen id="rocks2" >
+			<type num="1" />
+			<size range="2-8" />
+			<speed num="1" />
+			<rarity num="30" />
+			<x range="-18:-6" />
+			<z range="100-120" />
+		</rockgen>
+	
+		<rockgen id="rocks3" >
+			<type num="2" />
+			<size range="2-8" />
+			<speed num="1" />
+			<rarity num="30" />
+			<x range="-6:6" />
+			<z range="100-120" />
+		</rockgen>
+	
+		<rockgen id="rocks4" >
+			<type num="3" />
+			<size range="2-8" />
+			<speed num="1" />
+			<rarity num="30" />
+			<x range="6:18" />
+			<z range="100-120" />
+		</rockgen>
+	
+		<rockgen id="rocks5" >
+			<type num="4" />
+			<size range="2-8" />
+			<speed num="1" />
+			<rarity num="40" />
+			<x range="18:30" />
+			<z range="100-120" />
+		</rockgen>
+		
+		
+		
+		<shipgen id="mines" >
+			<entity str="mine" />
+			<rarity num="50" />
+			<x range="-10-10" />
+			<z range="100-120" />
+		</shipgen>
+		
+		<shipgen id="fighters" >
+			<entity str="fighter" />
+			<rarity num="120" />
+			<x range="-10-10" />
+			<z range="100-120" />
+		</shipgen>
+		
+		<shipgen id="burgers" >
+			<entity str="burger" />
+			<rarity num="130" />
+			<x range="-10-10" />
+			<z range="100-120" />
+		</shipgen>
+		
+		<shipgen id="burgers2" >
+			<entity str="burger" />
+			<driver str="burger_mad" />
+			<rarity num="180" />
+			<x range="-10-10" />
+			<z range="100-120" />
+		</shipgen>
+	
+		<pause t="infinite"/>
+		
+	</sequence>
+
+</level>

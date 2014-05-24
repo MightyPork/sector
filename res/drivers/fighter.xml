@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+	<driver name="fighter" extends="basic_ship"> 
+	    
+	    <task replace="fly">	        
+			<fn str="FLY_TO_POINT" />
+			<target coord="PLAYER_POS" />
+	    </task>
+		
+		<task replace="fire">
+			<fn str="SHOOT" />
+			<count num="1" />
+			<gap_group num="3" />
+			<gun num="0" />
+		</task>
+		
+	</driver>	
+</pack>

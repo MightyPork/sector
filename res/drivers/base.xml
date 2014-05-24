@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+    <!-- the most basic ai structure -->
+    <driver name="basic">
+		<task id="_begin"></task>	  
+		<check for="can_fire" id="can_fire"></check>		
+		<task if="can_fire" id="fire"></task>
+		<task id="fly"></task>
+		<task id="avoid"></task>
+		<task id="turn"></task>
+		<task id="_end"></task>
+	</driver>
+    
+    <!--  -->
+	<driver name="basic_ship" extends="basic">		      
+		<check replace="can_fire">
+			<fn str="CAN_SHOOT" />	
+			<gun num="0" />
+			<spare str="ENEMY" />		
+		</check>
+		
+		<!-- Needs replace -->
+		<task replace="fire"></task>
+		
+		<!-- Needs replace -->
+		<task replace="fly"></task>
+		
+		<task replace="avoid">
+			<fn str="AVOID" />
+			<avoid str="NATURAL,SHOT_GOOD,SHOT_BAD,ENEMY,MINE" />
+		</task>
+		
+		<task replace="turn">
+		    <fn str="TURN_TO" />
+		    <dir coord="MOVE_DIR" />
+		</task>
+	</driver>
+	
+	
+	<driver name="basic_saucer" extends="basic_ship">
+		
+		<!-- Needs replace -->
+		<task replace="fire"></task>
+		
+		<task replace="turn">
+		    <fn str="ROTATE" />
+		    <add num="3" />
+		    <random_dir bool="true"/>
+		</task>
+	</driver>
+	
+</pack>

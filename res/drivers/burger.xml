@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>
+    
+	<driver name="burger" extends="basic_saucer">		
+		<task replace="fire">
+			<fn str="SHOOT" />
+			<count range="2:4" />
+			<gap_shot num="0.07" />
+			<gap_group range="2:4" />
+			<gun num="0" />
+		</task>
+				
+		<task replace="avoid">
+			<fn str="AVOID" />
+			<avoid str="NATURAL,SHOT_GOOD,ENEMY,MINE" />
+			<weight num="1" />
+		</task>		
+			    
+	    <task replace="fly">	        
+			<fn str="FLY_TO_POINT" />
+			<target coord="PLAYER_POS" />
+	    </task>
+	</driver>
+	
+	
+	<driver name="burger_zone" extends="burger">   	
+		<task replace="fly">
+			<fn str="FLY_TO_RECT" />
+			<x range="-10:10" />
+			<z range="25:40" />
+			<weight num="60" />
+		</task>
+	</driver>
+	
+	<driver name="burger_zone_mad" extends="burger_zone">
+		<task replace="fire">
+			<fn str="SHOOT" />
+			<count range="15-25" />
+			<gap_shot num="0.08" />			
+			<gap_group range="1:5" />
+			<gun num="0" />
+		</task>
+	</driver>
+	
+	<driver name="burger_mad" extends="burger_zone">
+		<task replace="fire">
+			<fn str="SHOOT" />
+			<count range="15-25" />
+			<gap_shot num="0.08" />			
+			<gap_group range="2:5" />
+			<gun num="0" />
+		</task>
+	</driver>
+	
+	<driver name="burger_king" extends="basic_saucer">
+	    
+	    <check for="in_zone" id="ck1">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-5:70" />
+		</check>
+		
+		<task replace="fire" if="in_zone">
+			<fn str="SHOOT" />
+			<count range="10:20" />			
+			<bullets range="3:5" />
+			<gap_group num="1" />
+			<gap_shot num="0.02" />
+			<gun num="0" /> <!--range="0-1" -->
+		</task>
+				
+	    <task replace="fly">	        
+			<fn str="FLY_TO_RECT" />
+			<x range="-10:10" />
+			<z range="20:40" />
+			<weight num="10" />
+	    </task>
+	</driver>
+	
+</pack>

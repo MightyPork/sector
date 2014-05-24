@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+	<driver name="shark" extends="basic_ship">   
+	    
+	    <check for="in_zone1" id="ck1" after="can_fire">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-5:60" />
+		</check>	
+		
+	    <check for="in_zone2" id="ck2" after="ck1">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-5:80" />
+		</check>	
+		
+		<task replace="fire" if="can_fire*in_zone1">
+			<fn str="SHOOT" />
+			<count range="4:8" />			
+			<bullets range="3:5" />
+			<gap_group num="1.5" />
+			<gap_shot num="0.02" />
+			<gun num="0" /> <!--range="0-1" -->
+		</task>
+		
+		<task replace="avoid">
+			<fn str="AVOID" />
+			<avoid str="NATURAL,SHOT_GOOD,SHOT_BAD,ENEMY,MINE" />
+			<weight num="1.7" />
+		</task>
+		
+		<task replace="fly">
+			<fn str="FLY_TO_RECT" />
+			<x range="-5-5" />
+			<z range="18:34" />
+			<weight num="30" />
+		</task>
+		
+		<task replace="turn" if="!in_zone1">
+		    <fn str="TURN_TO" />
+		    <dir coord="MOVE_DIR" />
+		</task>
+		
+		<task id="t1" after="turn" if="in_zone1">
+		    <fn str="TURN_TO" />
+		    <dir coord="PLAYER_DIR" />
+		</task>
+		
+<!-- 		<TASK AFTER="T1" ID="T2" IF="IN_ZONE"> -->
+<!-- 		    <FN STR="SET_SPEED"/> -->
+<!-- 		    <SPEED NUM="0.5"/> -->
+<!-- 		</TASK> -->
+		
+<!-- 		<task after="t2" if="!in_zone"> -->
+<!-- 		    <fn str="SET_SPEED"/> -->
+<!-- 		    <speed num="1"/> -->
+<!-- 		</task> -->
+		
+	</driver>	
+</pack>

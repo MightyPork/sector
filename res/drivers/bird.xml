@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+	<driver name="bird" extends="basic_ship">   
+	    
+	    <check for="in_zone" id="ck1" after="can_fire">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-20:30" />
+		</check>	
+		
+		<task replace="fire" if="can_fire&amp;in_zone">
+			<fn str="SHOOT" />
+			<count range="1" />
+			<gap_group num="0.6" />
+			<gun num="0" />
+		</task>
+		
+		<task replace="fly">
+			<fn str="FLY_TO_RECT" />
+			<x range="-4-4"/>
+			<z range="15-25"/>
+			<weight num="30" />
+		</task>
+		
+		
+		<task replace="turn">
+		    <fn str="TURN_TO" />
+		    <dir coord="PLAYER_DIR" />
+		</task>
+		
+		<task replace="avoid">
+			<fn str="AVOID" />
+			<avoid str="NATURAL,SHOT_GOOD,SHOT_BAD,ENEMY,MINE" />
+			<range num="4" />
+			<weight num="4" />
+			<square bool="true" />
+		</task>
+		
+	</driver>	
+</pack>

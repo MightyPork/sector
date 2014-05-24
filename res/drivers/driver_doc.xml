@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- This file shows all that can be done in a driver. -->
+
+<!-- The root tag "pack" can contain multiple "driver" tags, but nothing else -->
+<pack>
+	
+	<!-- Here we declare a driver -->
+	<driver name="driver1">
+	    
+	    
+		<!-- TASKS AND CHECKS -->
+	    
+		<!--
+		
+		Inside a driver, there can be various task and check statements.
+		[Checks] test something in the drone's environment, and saves the result as a true/false flag.
+		[Tasks] perform some actual operation - shoot, steer, rotate and similar.
+		
+		Tasks can be contitioned by the results of Checks.
+		
+		There is a list of all existing tasks and checks lower - here for the sake of simplicity
+		we will use FAKE tasks and checks.
+		-->
+		
+		
+		<!-- the result of a "check" is stored to a flag whose name you declare here -->
+		<check id="ck" for="flag_name">
+			<!-- some stuff here --> 
+		</check>
+		
+		
+		<!--
+		task executes only if the given flag is true.
+		Use | as OR, & as AND, and brakcets to group the flags.
+		
+		Example:
+			if="((A|B)&(C|D))|E"		
+			if="canShoot"
+		-->
+		<task id="ts" if="flag_name">
+			<!-- some stuff here --> 
+		</check>
+		
+		
+		
+		
+		<!-- TASK CONTENTS -->
+		
+		<task id="fakeTask">
+			
+			<!-- name of the function used to perform this check or task -->
+			<fn str="NAME_OF_THE__FUNCTION" />
+			
+			<!-- here come arguments for the function -->			
+			<argname argtype="argvalue" />
+			
+			<!--
+			Most tasks and checks take several arguments.
+			
+			Table of argument types:		
+					
+				str -> "A string value."
+				
+				num -> Number, integer "12" or float "8.751"			
+					(also work for numbers: int, float, double)	
+					
+				bool -> Boolean.
+					Allowed values are "true", "false", "0", "1", "yes", "no"	
+							
+				range -> numeric range
+					format: "MIN:MAX", eg. "-13:15.5" or "3:5"
+					Use RANGE in place of NUM to make it generate random number from range.
+					That can be used for all task functions.
+				
+				coord -> a coordinate, or a vector
+					format: "X_COORD;Z_COORD"
+					This is because the Sector's scene is flat, all is at Y=0
+					You can use both integer and float numbers.
+					
+					Coord has one special feature: MAGIC VALUES!
+					If you declare the argument as coord, but stuff it with a "magic" string value,
+					it will become a dynamic coordinate, always returning calculated value of the
+					"magic" coordinate.	Example: coord="MOVE_DIR"
+					
+					Magic values:
+						PLAYER_POS - player's current position
+						PLAYER_MOTION - player's current motion vector
+						
+						POS	- current position
+						MOTION - current motion vector of this ship
+						
+						MOVE_DIR - same as MOTION
+						PLAYER_DIR - vector towards player ship
+				
+			-->			
+			
+			<!-- real-life examples -->
+			<dir coord="PLAYER_DIR" />
+			<fn str="FLY_TO_RECT" />
+			<gap_shot num="3" />
+			<gap_group range="3:5" />
+			<hello str="world" />
+			
+		</task>
+		
+	</driver>
+	
+	
+	
+	<!-- INHERITANCE -->
+	
+	<!-- 
+	
+	Drivers can be extended, their tasks and checks overriden.
+	
+	Replacing task does not need to define the "if" and "for", unless you want 
+	to replace their value with your own.
+	
+	It's illegal to extend driver not defined yet. If your drivers are spread
+	among multiple files, make sure they are properly ordered in the manifest file. 
+	
+	-->
+	
+	<driver name="base_driver">	    
+	    
+	    <!-- 
+	    "id" attribute of Task or Check contains an unique identifier of the task.
+	    "id" is not required, but in case you want to extend your driver it is neccesary.
+	    
+	    Task with empty contents will be considered as abstract = do-nothing task.
+	     -->
+	    
+	    <!-- here come some abstract tasks (will do nothing if not overriden) -->
+	    <check for="flag1" id="myCheck"></check>		
+		<task if="flag1" id="myTask"></task>
+		
+		<!-- Rotate task, implemented here - but can be overriden too. -->
+		<task id="rotateTask">
+		    <fn str="ROTATE" />
+		    <add num="-3" />
+		</task>
+		
+	</driver>
+		
+	<!-- here is a driver extending "base_driver" -->
+	<driver name="droid" extends="base_driver">	 
+		
+	    <!-- this task will replace entirely a task "myTask" from "base_driver" -->
+	    <!-- note that here we dont need to define the "if" condition - it's inherited. -->
+		<task replace="myTask">		    
+			<fn str="SHOOT" />
+			<count range="1" />
+			<gap_group range="3" />
+			<gun num="0" />			
+		</task>
+		
+		<!-- how to add new tasks -->
+		
+		<!-- this task is added newly, and is placed right after "rotateTask" from "base_driver" -->
+		<task id="steer" after="rotateTask">
+		    <!-- something here -->
+		</task>
+		
+		<!-- here we want to put this before "myCheck" -->
+		<task id="aim" before="myCheck">
+		    <!-- something here -->
+		</task>
+		
+		<!-- note: before and after keywords work in all tasks, not only when extending -->
+		
+	</driver>
+	
+	
+	
+	<!-- LIST OF ALL TASKS AND CHECKS -->
+	
+	<!-- Asterisk * indicates optional arguments. -->
+	
+	<driver name="library">
+	    
+	    <!-- Steer towards given coordinate -->
+	    <task>
+	        <fn str="FLY_TO_POINT" />
+	        
+	        <target coord="0;0" /> 		<!-- the target coordinate; exact coord or magic word, eg. PLAYER_POS -->
+	        <weight num="1" /> 			<!-- * how fast to change direction (default 1) - can be float. -->
+	        
+	        <!-- if you do not define "target", you can use these: -->
+	        <!-- target will be set to random coord in between, and preserved in memory -->
+	        <x range="-3:3" />
+	        <z range="5:10" />
+	        
+	    </task>
+	    
+	    
+	    
+	    <!-- Steer towards given rectangular zone -->
+	    <task>
+	        <fn str="FLY_TO_RECT" />
+
+	        <x range="-3:3" />	<!-- The rectangular zone is defined by it's MIN and MAX coord - it is axis-aligned. -->
+	        <z range="5:10" />
+	        
+	        <weight num="1" /> 			<!-- * how fast to change direction (default 1) - can be float. -->
+	    </task>
+	    
+	    
+	    
+	    <!-- 
+	    Homming missile AI	    
+	    Locks to one particular enemy it selects, and then navigates to crash into it.
+	    Should be used together with AVOID task
+	    -->
+	    <task>
+	        <fn str="FOLLOW_TARGET" />
+	        
+	        <target str="PLAYER,NATURAL" />		<!-- List of allowed targets (PLAYER, NATURAL, ENEMY, SHOT_GOOD, SHOT_BAD, POWERUP etc.) -->
+	        <range num="60" /> 					<!-- * radar radius - zone from which the targets can be chosen -->
+	    </task>
+	    
+	    
+	    
+	    <!-- 
+	    Magnetic missile AI	    
+	    When gets close to a suitable enemy, flies towards it as if attracted by a magnet.
+	    -->
+	    <task>
+	        <fn str="MAGNET" />
+	        
+	        <target str="PLAYER,NATURAL" />		<!-- List of allowed targets (PLAYER, NATURAL, ENEMY, SHOT_GOOD, SHOT_BAD, POWERUP etc.) -->	        
+	        <range num="15" /> 					<!-- * radar radius - zone from which the targets can be chosen -->	        
+	        <weight num="1" /> 					<!-- * how fast to change direction (default 1) - can be float. -->
+	    </task>
+	    
+	    
+	    
+	    <!-- Avoid enemies and obstacles -->
+	    <task>
+	        <fn str="AVOID" />
+	                
+	        <range num="3" /> 			<!-- * max distance of obstacle to notice it (counted from surface of collider) -->	        
+	        <weight num="1" /> 			<!-- * steering weight (default 1) -->
+	        <square bool="false" />		<!-- * if enabled, the strength grows with proximity by square -->	
+	        <avoid str="NATURAL,SHOT_GOOD,SHOT_BAD,ENEMY" />
+	    </task>
+	    
+	    
+	    
+	    <!-- Add angle to rotation -->
+	    <task>
+	        <fn str="ROTATE" />
+	                	
+	        <add num="3" />				<!-- degrees to add -->	   
+	        <random_dir bool="true" />	<!-- * direction is random (CW, CWW) - chosen when first run; default=false --> 
+	    </task>
+	    
+	    
+	    
+	    <!-- Rotate to direction -->
+	    <task>
+	        <fn str="TURN_TO" />
+	        	                
+	        <dir coord="MOVE_DIR" /> <!-- vector X;Z, or "magic" keywords MOVE_DIR, PLAYER_DIR -->	    
+	    </task>
+	    
+	    	
+	    
+	    <!--
+	    Shoot a gun
+	    	    
+	    This task allows two types of operation: 
+	    X------X------X------X--- ...
+	    X-X-X------X-X-X------X-X-X--- ...	    
+	    (times are in seconds)
+	    -->
+	    <task>
+	        <fn str="SHOOT" />
+	        	                
+	        <count num="3" />			<!-- number of shots in a group -->
+	        <gap_shot num="0.07" />		<!-- * gap between two shots in a group (optional if count=0) -->
+	        <gap_group num="3" />		<!-- gap between two groups -->
+	        
+	        <gun num="0" />				<!-- * gun index, telling the drone which gun to fire -->	        
+	    </task>
+	    
+	    
+	        
+	    <!-- Heal - in given interval adds health points to the drone's health meter -->
+	    <task>
+	        <fn str="HEAL" />
+	        	                
+	        <gap num="1" />				<!-- gap (sec) betwen healings -->
+	        <add num="5" />				<!-- health points to add --> 
+	        <percent bool="true" />		<!-- indicates that "heal" is in % of max health -->  
+	    </task>
+	    
+	    <!-- ### CHECKS ###  -->
+	    	        
+	    <!-- 	    
+	    Check: can shoot in direction?
+	    You can use this to make sure your shots won't hit an allied ship. 
+	    -->
+	    <check for="x">
+	        <fn str="CAN_SHOOT" />
+	        
+	        <spare str="ENEMY" />		<!-- list of entity types to spare (the allied entities) -->   
+	        <gun num="0" />				<!-- * index of the gun probed -->
+	    </check>
+	    
+	    
+	    	    	        
+	    <!-- Check: is drone in a rectangular zone? -->
+	    <check for="x">
+	        <fn str="IS_IN_RECT" />
+	        	        
+	        <!-- The rectangular zone is defined by it's MIN and MAX coord - it is axis-aligned. -->
+	        <x range="-3:3" />
+	        <z range="5:10" />
+	    </check>
+	    
+	    
+	    
+	    <!-- Check: is this ship a leader of the formation? -->
+	    <check for="x"/>
+	    	<fn str="IS_LEADER" />
+	    </check>
+	    
+	
+	
+	    <!-- Check: is this ship a tail = last ship of the formation? -->
+	    <check for="x"/>
+	    	<fn str="IS_TAIL" />
+	    </check>
+	    
+	</driver>
+	
+	<!-- that's all, now you can start inventing your own AIs! -->
+	
+</pack>

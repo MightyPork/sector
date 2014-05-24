@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+	<driver name="cube_snake"> 
+	    
+	    <check for="in_zone">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-20:60" />
+		</check>	
+	    		
+		<check for="fire">
+			<fn str="CAN_SHOOT" />	
+			<gun num="0" />
+			<spare str="ENEMY" />
+			<!-- ignore_formation bool="true" /-->
+		</check>
+			
+		<task if="fire*in_zone">
+			<fn str="SHOOT" />
+			<count range="1:3" />
+			<gap_group range="0.5:2.5" />
+			<gap_shot num="0.09" />
+			<gun num="0" />
+		</task>
+				
+		<task>
+		    <fn str="TURN_TO" />
+		    <dir coord="MOVE_DIR" />
+		</task>
+		
+		
+		<!--  SNAKE CODE  -->		    			
+		<check for="is_leader">
+			<fn str="IS_LEADER" />	
+		</check>	
+		
+		<check for="is_tail">
+			<fn str="IS_TAIL" />	
+		</check>	
+		
+		<task if="is_leader">
+			<fn str="FLY_TO_RECT" />
+			<x range="-10:10" />
+			<z range="25:35" />
+			<weight num="5" />
+		</task>		
+			
+		<task if="!is_leader">
+			<fn str="FLY_TO_POINT" />			
+			<target coord="LEADER_POS" />
+			<weight num="10" />
+		</task>
+		
+		<task if="!is_leader">
+			<fn str="KEEP_DISTANCE" />
+			<from coord="LEADER_POS" />			
+			<dist range="1.5:2" />
+		</task>
+		
+		
+		<task if="is_leader">
+			<fn str="AVOID" />
+			<avoid str="ENEMY,MINE,PLAYER,NATURAL,SHOT_GOOD" />
+			<weight num="1.5" />
+			<range num="5" />
+			<ignore_formation bool="true" />
+		</task>
+
+		<!-- END OF SNAKE CODE -->
+		
+	</driver>
+</pack>

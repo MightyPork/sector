@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	
+	<!-- Level information -->
+	<info>
+		<title>TITLE</title>
+		<subtitle>DESCRIPTION</subtitle>
+		<author>AUTHOR</author>
+		<minv>MIN_GAME_VERSION</minv>
+	</info>
+	
+	<!-- Level configuration -->
+	<config>
+		<money>MONEY</money>
+		<timer>TIME_LIMIT (optional)</timer>
+		<building>LOCKED or NORMAL or FREE</building>
+	</config>
+	
+	
+	<!-- (optional) Default ship design -->
+	<ship></ship>
+	
+	
+	<!-- (optional) Custom drivers -->
+	<drivers></drivers>
+
+	
+	<!-- levels of discoveries -->
+	 <!-- level values: min = none = empty = 0 | max = full | default | number -> set level  -->
+	<discoveries>
+		<all level="0" />	
+		
+		<discovery name="energy" level="1" />
+		<discovery name="shield" level="1" />
+		
+		<discovery name="body" level="1" />
+		
+		<discovery name="engineRocket" level="1" />
+		<discovery name="engineIon" level="1" />
+		
+		<discovery name="cannon" level="1" />
+		<discovery name="laser" level="1" />
+		<discovery name="plasma" level="1" />
+		<discovery name="rocket" level="1" />
+		<discovery name="rocket_guided" level="1" />
+		<discovery name="emp" level="1" />
+		<discovery name="fireball" level="1" />
+	</discoveries>
+	
+	
+	<!-- level sequence -->
+	<sequence>
+	</sequence>
+
+	
+</level>

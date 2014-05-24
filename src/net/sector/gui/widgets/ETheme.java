@@ -1,0 +1,6 @@
+package net.sector.gui.widgets;
+
+
+public enum ETheme {
+	GREEN, BLUE, BLUE_FRAME, GREEN_FRAME, DES_TAB_BUTTON, DES_PANEL, DES_TABLE, MENU_BUTTON, MENU_TITLE, BLUE_SCROLLBAR;
+}

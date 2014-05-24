@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>
+    
+	<driver name="powerup_shield">	
+	    
+	    <check for="fly">
+	        <fn str="IS_IN_RECT" />
+	        <x range="-30;30" />
+	        <z range="0;100" />
+	    </check>
+		
+	    <task>
+	        <fn str="ROTATE" />
+	        <add num="3" />
+	        <random_dir bool="true" />
+	    </task>
+	    
+	    <task if="fly">
+	        <fn str="FLY_TO_RECT" />	        
+	        <x range="-2;2" />
+	        <z range="3;6" />
+	        <weight num="0.5" />
+	    </task>
+	    
+	    <task>
+	        <fn str="MAGNET" />
+	        <range num="5" />
+	        <weight num="0.3" />
+	        <target str="PLAYER" />
+	    </task>
+	    
+		<task>
+	        <fn str="AVOID" />	                
+	        <range num="3" />  
+	        <weight num="0.2" />
+			<avoid str="NATURAL,ENEMY,MINE" />
+	    </task>
+	    
+	</driver>
+	
+	<driver name="powerup_artifact">	
+	    
+	    <check for="fly">
+	        <fn str="IS_IN_RECT" />
+	        <x range="-30;30" />
+	        <z range="0;100" />
+	    </check>
+		
+	    <task>
+	        <fn str="ROTATE" />
+	        <add num="2.5" />
+	        <random_dir bool="true" />
+	    </task>
+	    
+	    <task if="fly">
+	        <fn str="FLY_TO_RECT" />	        
+	        <x range="-2;2" />
+	        <z range="3;8" />
+	        <weight num="0.5" />
+	    </task>
+	    
+	    <task>
+	        <fn str="MAGNET" />
+	        <range num="20" />
+	        <weight num="0.6" />
+	        <target str="PLAYER" />
+	    </task>
+	    
+		<task>
+	        <fn str="AVOID" />	                
+	        <range num="3" />  
+	        <weight num="0.2" />
+			<avoid str="NATURAL,ENEMY,MINE" />
+	    </task>
+	    
+	</driver>
+</pack>

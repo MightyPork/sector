@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>
+    
+	<driver name="mine">
+		
+	    <task>
+	        <fn str="ROTATE" />
+	        <add num="3" />
+	        <random_dir bool="true" />
+	    </task>
+	    
+	</driver>
+	
+</pack>

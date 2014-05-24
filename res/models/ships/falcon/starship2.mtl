@@ -1,0 +1,50 @@
+# Exported from Wings 3D 1.4.1
+newmtl body
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+map_Kd body.png
+
+newmtl default
+Ns 100.0
+d 1.0
+illum 2
+Kd 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ka 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+
+newmtl sidegun
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+map_Kd sidegun.png
+
+newmtl wing2
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+map_Kd wing2.png
+
+newmtl wing3
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+map_Kd wing1.png
+

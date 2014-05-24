@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pack>    
+	<driver name="falcon" extends="basic_ship">   
+	    
+	    <check for="in_zone" id="ck1" after="can_fire">
+			<fn str="IS_IN_RECT" />
+			<x range="-20:20" />
+			<z range="-5:45" />
+		</check>	
+		
+		<task replace="fire" if="can_fire&amp;in_zone">
+			<fn str="SHOOT" />
+			<count range="6:15" />
+			<gap_shot num="0.07" />
+			<gap_group range="2:4" />
+			<gun num="0" />
+		</task>
+		
+		<task replace="fly">
+			<fn str="FLY_TO_RECT" />
+			<x range="-10-10" />
+			<z range="25:40" />	
+			<weight num="10" />
+		</task>
+		
+		<task replace="turn" if="!in_zone">
+		    <fn str="TURN_TO" />
+		    <dir coord="MOVE_DIR" />
+		</task>
+		
+		<task after="turn" if="in_zone">
+		    <fn str="TURN_TO" />
+		    <dir coord="PLAYER_DIR" />
+		</task>
+		
+	</driver>	
+</pack>
