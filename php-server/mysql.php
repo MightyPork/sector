@@ -1,9 +1,9 @@
 <?php
 
 define("SQL_HOST","localhost");
-define("SQL_DBNAME","tridni_net_main");
-define("SQL_USERNAME","tridni_net_main");
-define("SQL_PASSWORD","ondra");
+define("SQL_DBNAME","***removed***");
+define("SQL_USERNAME","***removed***");
+define("SQL_PASSWORD","***removed***");
 
 mysql_connect(SQL_HOST, SQL_USERNAME, SQL_PASSWORD);
 
