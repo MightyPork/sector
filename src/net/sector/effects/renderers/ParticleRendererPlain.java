@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Particle renderer PLAIN.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class ParticleRendererPlain extends ParticleRenderer {
 

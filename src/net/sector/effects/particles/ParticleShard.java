@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * Shard (explosion) particle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleShard extends Particle {
 

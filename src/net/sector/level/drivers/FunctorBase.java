@@ -9,7 +9,7 @@ import net.sector.entities.EntityNavigable;
 /**
  * Task executing functor
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class FunctorBase {
 	public double speedMul(INavigated drone) {

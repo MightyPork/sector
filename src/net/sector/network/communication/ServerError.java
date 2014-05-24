@@ -4,7 +4,7 @@ package net.sector.network.communication;
 /**
  * Error returned from the server
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ServerError extends Exception {
 	private EServerError error;

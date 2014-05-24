@@ -18,7 +18,7 @@ import net.sector.util.Log;
  * Initialization utility, initializing all the static stuff that is needed
  * before starting main loop.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class StaticInitializer {
 

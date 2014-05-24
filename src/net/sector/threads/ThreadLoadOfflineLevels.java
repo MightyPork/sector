@@ -26,7 +26,7 @@ import com.porcupine.util.FileUtils;
 /**
  * Thread checking version of the latest release.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ThreadLoadOfflineLevels extends Thread {
 

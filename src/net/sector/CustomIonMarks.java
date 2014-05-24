@@ -12,7 +12,7 @@ import com.porcupine.ion.Ion;
 /**
  * Class adding ION marks for custom ionizable objects
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class CustomIonMarks {

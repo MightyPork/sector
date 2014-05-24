@@ -13,7 +13,7 @@ import com.porcupine.math.Calc;
  * Wrapper class for slick audio with shorter method names and support for
  * Coords
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class AudioX implements Audio {
 

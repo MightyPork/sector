@@ -19,7 +19,7 @@ import com.porcupine.math.Calc;
 /**
  * Enemy cube entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityShipCube extends EntityNavigable {
 

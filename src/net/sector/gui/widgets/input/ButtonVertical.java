@@ -13,7 +13,7 @@ import com.porcupine.coord.Coord;
 /**
  * Vertical (left tab) button
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ButtonVertical extends Button {
 

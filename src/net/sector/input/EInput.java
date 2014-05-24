@@ -7,7 +7,7 @@ import org.newdawn.slick.util.Log;
 /**
  * Enum of event types for trigger.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EInput {
 	/** Keyboard key pressed */

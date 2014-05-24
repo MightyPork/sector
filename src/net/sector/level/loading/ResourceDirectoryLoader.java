@@ -9,7 +9,7 @@ import org.newdawn.slick.util.ResourceLoader;
 /**
  * Directory access in resources
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ResourceDirectoryLoader implements DirectoryLoader {
 

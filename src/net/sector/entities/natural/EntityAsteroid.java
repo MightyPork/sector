@@ -19,7 +19,7 @@ import com.porcupine.math.Calc;
 /**
  * Asteroid entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityAsteroid extends EntityNatural {
 

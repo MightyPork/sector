@@ -26,7 +26,7 @@ import com.porcupine.math.Calc;
 /**
  * Player ship bundle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ShipBundle {
 

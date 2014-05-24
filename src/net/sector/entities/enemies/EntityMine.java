@@ -22,7 +22,7 @@ import com.porcupine.coord.Vec;
 /**
  * Mine entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityMine extends EntityNavigable {
 

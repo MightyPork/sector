@@ -23,7 +23,7 @@ import org.jdom2.Element;
 /**
  * Level descriptor and level data container
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NetLevelContainer {
 

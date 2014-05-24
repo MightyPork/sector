@@ -21,7 +21,7 @@ import org.jdom2.input.SAXBuilder;
 /**
  * XML loading utility
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class XmlUtil {
 	private static final boolean DEBUG = Constants.LOG_XML_LOADING;

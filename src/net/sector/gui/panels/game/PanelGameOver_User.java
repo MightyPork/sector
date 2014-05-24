@@ -40,7 +40,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Highscore panel for local levels and user.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelGameOver_User extends PanelGui {
 

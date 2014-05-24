@@ -17,7 +17,7 @@ import org.jdom2.Element;
 /**
  * Driver loader and store
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class DriverStore {
 	/** store of drivers loaded earlier */

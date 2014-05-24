@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * List of users in global leaderboard system
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjUserList extends ArrayList<ObjUserInfo> {
 

@@ -19,7 +19,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Clcikable button.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class TextInput extends Widget {
 	public static final String CHARS_NUMBERS = "0123456789";

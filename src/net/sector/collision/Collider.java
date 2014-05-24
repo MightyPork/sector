@@ -8,7 +8,7 @@ import com.porcupine.coord.Coord;
  * Collider object, used to hold information about object positions, rotations
  * and to detect their collisions.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Collider {
 	/** Central point */

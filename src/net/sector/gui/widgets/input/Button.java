@@ -19,7 +19,7 @@ import com.porcupine.coord.Coord;
 /**
  * Clickable button.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Button extends Widget {
 

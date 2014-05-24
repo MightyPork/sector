@@ -7,7 +7,7 @@ import com.porcupine.math.Calc;
 /**
  * Structure of 7 objects.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @copy (c) 2012
  * @param <T1> 1st object class
  * @param <T2> 2nd object class

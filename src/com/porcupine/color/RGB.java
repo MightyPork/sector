@@ -9,7 +9,7 @@ import com.porcupine.math.Calc;
 /**
  * RGB color
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class RGB {
 

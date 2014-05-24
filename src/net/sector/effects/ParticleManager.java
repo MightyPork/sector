@@ -19,7 +19,7 @@ import com.porcupine.coord.Vec;
  * Particle manager, container and animator of particles.<br>
  * It extends HashSet, so you can simply use add(particle) to add new effect.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleManager extends ArrayList<Particle> {
 

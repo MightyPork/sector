@@ -11,7 +11,7 @@ import java.util.Map.Entry;
 /**
  * Ionizable HashMap
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class IonMap extends LinkedHashMap<String, Object> implements Ionizable {

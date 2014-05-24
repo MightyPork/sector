@@ -10,7 +10,7 @@ import net.sector.sounds.Music;
 /**
  * ship designer screen
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScreenDesigner extends Screen {
 

@@ -17,7 +17,7 @@ import net.sector.Constants;
 /**
  * Sector static logger class.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @copy (c) 2012
  */
 public class Log {
@@ -254,7 +254,7 @@ public class Log {
 	/**
 	 * PowerCraft Log file formatter.
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 * @copy (c) 2012
 	 */
 	private static class LogFormatter extends Formatter {

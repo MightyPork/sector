@@ -60,7 +60,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Main menu panel
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelDesigner extends PanelGui {
 

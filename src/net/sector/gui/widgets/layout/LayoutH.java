@@ -11,7 +11,7 @@ import com.porcupine.math.Calc;
 /**
  * Horizontal layout widget
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LayoutH extends LayoutBase {
 

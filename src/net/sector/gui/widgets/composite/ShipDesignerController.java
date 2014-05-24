@@ -20,7 +20,7 @@ import com.porcupine.coord.CoordI;
  * Ship piece drag controller GUI (no size).<br>
  * In design must be after all other tables.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ShipDesignerController extends Widget {
 

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * List of levels in database
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjLevelList extends ArrayList<ObjLevelInfo> {
 

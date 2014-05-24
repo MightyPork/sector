@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 /**
  * Ionizable HashMap
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @param <V>
  */
 public abstract class AbstractIonMap<V> extends LinkedHashMap<String, V> implements Ionizable {

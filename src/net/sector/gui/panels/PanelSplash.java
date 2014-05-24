@@ -18,7 +18,7 @@ import com.porcupine.coord.Coord;
 /**
  * Splash panel
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelSplash extends Panel {
 

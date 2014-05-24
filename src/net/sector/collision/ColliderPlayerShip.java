@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * Player ship collider (made up of pieces)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ColliderPlayerShip extends ColliderSphere {
 

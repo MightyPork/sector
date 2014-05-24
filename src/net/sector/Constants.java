@@ -7,7 +7,7 @@ import com.porcupine.coord.Coord;
 /**
  * Sector constants
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class Constants {

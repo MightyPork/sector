@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Particle renderer BLEND (black image with colors).
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class ParticleRendererBlend extends ParticleRenderer {
 

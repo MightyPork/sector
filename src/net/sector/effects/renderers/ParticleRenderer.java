@@ -14,7 +14,7 @@ import com.porcupine.coord.Coord;
  * Only one instance of this renderer is made, and is later held in
  * ParticleManager.renderers
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class ParticleRenderer {
 

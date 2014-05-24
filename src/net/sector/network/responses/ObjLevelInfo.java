@@ -4,7 +4,7 @@ package net.sector.network.responses;
 /**
  * Level entry in level list
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjLevelInfo {
 

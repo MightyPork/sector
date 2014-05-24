@@ -4,7 +4,7 @@ package net.sector.input;
 /**
  * Stand-alone routine
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface Routine {
 	/**

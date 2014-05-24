@@ -8,7 +8,7 @@ import net.sector.sounds.Music;
 /**
  * screen for level selection.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScreenLevels extends Screen {
 

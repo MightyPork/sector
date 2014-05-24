@@ -9,7 +9,7 @@ import net.sector.sounds.Music;
 /**
  * Splash screen
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScreenSplash extends Screen {
 

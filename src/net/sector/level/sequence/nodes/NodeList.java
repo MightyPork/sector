@@ -10,7 +10,7 @@ import org.jdom2.Element;
 /**
  * Node loop
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeList extends LevelNodeBase {
 

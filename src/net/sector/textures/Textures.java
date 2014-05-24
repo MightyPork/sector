@@ -7,7 +7,7 @@ import org.lwjgl.opengl.GL11;
 /**
  * Texture loading class
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Textures {
 

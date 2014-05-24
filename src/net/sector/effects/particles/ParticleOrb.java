@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * "EMP" particle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleOrb extends Particle {
 

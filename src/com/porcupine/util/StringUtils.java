@@ -4,7 +4,7 @@ package com.porcupine.util;
 /**
  * General purpose string utilities
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class StringUtils {
 

@@ -12,7 +12,7 @@ import org.jdom2.Element;
 /**
  * "Pause" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeHudMessage extends LevelNodeBase {
 

@@ -17,7 +17,7 @@ import com.porcupine.math.Polar;
 /**
  * Base for all shots
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class EntityShotBase extends Entity {
 

@@ -14,14 +14,14 @@ import com.porcupine.coord.Rect;
 /**
  * Radio button.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class RadioButton extends Checkbox {
 
 	/**
 	 * Radio group.
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class RadioGroup extends HashSet<RadioButton> {}
 

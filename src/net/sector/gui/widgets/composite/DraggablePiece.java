@@ -16,7 +16,7 @@ import com.porcupine.coord.Coord;
 /**
  * Variant of PieceBundle used in designer.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class DraggablePiece extends PieceBundle {
 	/** Model for designer */

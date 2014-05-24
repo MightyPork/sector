@@ -13,7 +13,7 @@ import com.porcupine.coord.Vec;
 /**
  * "Pause" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeSetGlobalMovement extends LevelNodeBase {
 

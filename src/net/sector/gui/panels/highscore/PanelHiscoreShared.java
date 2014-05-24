@@ -38,7 +38,7 @@ import com.porcupine.color.RGB;
 /**
  * Highscore panel for shared levels
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelHiscoreShared extends PanelGui {
 

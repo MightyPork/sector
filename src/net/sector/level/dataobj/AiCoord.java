@@ -14,7 +14,7 @@ import com.porcupine.math.PolarDeg;
 /**
  * Simple [X;Z] coordinate for AI
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class AiCoord {
 	/** Zero AI Coord */

@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable object
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @param <T> type
  */
 public abstract class AbstractMutable<T> {

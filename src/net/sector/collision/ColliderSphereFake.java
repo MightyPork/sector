@@ -7,7 +7,7 @@ import com.porcupine.coord.Coord;
 /**
  * Sphere collider, never colliding
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ColliderSphereFake extends ColliderSphere {
 

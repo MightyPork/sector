@@ -20,7 +20,7 @@ import com.porcupine.coord.Coord;
 /**
  * Remade universal font manager for Sector.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FontManager {
 
@@ -29,7 +29,7 @@ public class FontManager {
 	/**
 	 * Glyph tables.
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class Glyphs {
 		//@formatter:off
@@ -82,7 +82,7 @@ public class FontManager {
 	/**
 	 * Font style
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static enum Style {
 		/** Normal */
@@ -118,7 +118,7 @@ public class FontManager {
 	/**
 	 * Preloaded font identifier [name, size, style]
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class FontId {
 		/** font size (pt) */
@@ -201,7 +201,7 @@ public class FontManager {
 	/**
 	 * Group of styles of one font.
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class FontFamily extends HashMap<Style, String> {}
 

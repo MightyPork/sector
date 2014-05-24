@@ -4,7 +4,7 @@ package net.sector.util;
 /**
  * Alignment
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class Align {

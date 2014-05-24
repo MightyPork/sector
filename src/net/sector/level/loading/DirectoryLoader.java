@@ -7,7 +7,7 @@ import java.io.InputStream;
 /**
  * Directory access interface
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface DirectoryLoader {
 	/**

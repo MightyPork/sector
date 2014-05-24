@@ -8,7 +8,7 @@ import com.porcupine.coord.Vec;
 /**
  * Function executor triggered by input event.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class InputTriggeredAction implements IInputHandler {
 

@@ -13,7 +13,7 @@ import net.sector.network.responses.ObjScoreInfo;
 /**
  * Highscore entry factory
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HighscoreEntryFactory implements IWidgetFactory {
 

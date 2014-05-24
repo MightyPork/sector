@@ -11,7 +11,7 @@ import com.porcupine.math.Calc;
 /**
  * Thing for testing input states and events.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class InputTrigger {
 	/** Trigger event */

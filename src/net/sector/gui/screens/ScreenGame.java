@@ -9,7 +9,7 @@ import net.sector.sounds.Music;
 /**
  * main game screen
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScreenGame extends Screen {
 

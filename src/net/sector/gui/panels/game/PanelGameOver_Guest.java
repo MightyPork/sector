@@ -44,7 +44,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Highscore panel for guests (net and local levels)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelGameOver_Guest extends PanelGui {
 

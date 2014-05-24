@@ -15,7 +15,7 @@ import com.porcupine.ion.Ion;
 /**
  * List of profile entries
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ProfileList extends AbstractIonList<UserProfile> {
 

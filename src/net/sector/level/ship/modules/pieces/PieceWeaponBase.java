@@ -9,7 +9,7 @@ import com.porcupine.math.Calc.Deg;
 /**
  * Weapon stub
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class PieceWeaponBase extends Piece {
 

@@ -39,7 +39,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Game over screen for Shared levels and registered user.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelGameOverShared_User extends PanelGui {
 

@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable float
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MFloat extends AbstractMutable<Float> {
 	/**

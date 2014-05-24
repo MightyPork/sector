@@ -15,7 +15,7 @@ import com.porcupine.coord.Coord;
 /**
  * Clcikable button.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MenuButton extends Widget {
 

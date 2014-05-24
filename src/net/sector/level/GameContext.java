@@ -8,7 +8,7 @@ import net.sector.network.levels.NetLevelContainer;
 /**
  * Game context
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class GameContext {
 

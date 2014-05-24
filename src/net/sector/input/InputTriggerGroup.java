@@ -11,7 +11,7 @@ import com.porcupine.coord.Vec;
 /**
  * Group of input triggers, able to detect multiple events separately.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class InputTriggerGroup implements IInputHandler {
 

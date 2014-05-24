@@ -13,7 +13,7 @@ import com.porcupine.math.Range;
 /**
  * Base for natural stuff generators (asteroids etc.)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class SpawnerBase {
 	/** Flag whether this generator is enabled */

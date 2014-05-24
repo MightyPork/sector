@@ -10,7 +10,7 @@ import net.sector.util.Log;
 /**
  * AI task entry
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class AiTask {
 	/** Task functor name */

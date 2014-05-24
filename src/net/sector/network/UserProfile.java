@@ -22,7 +22,7 @@ import com.porcupine.util.StringUtils;
 /**
  * User profile object
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class UserProfile implements IonizableOptional, Comparable<UserProfile> {
 

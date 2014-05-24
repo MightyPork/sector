@@ -21,7 +21,7 @@ import com.porcupine.coord.Vec;
 /**
  * Level sequencer with timing, spawners & algorithm
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LevelController {
 	/** Spawners map */

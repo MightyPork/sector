@@ -4,7 +4,7 @@ package net.sector.level.sequence;
 /**
  * HUD message object
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HudMessage {
 	/** Message text */

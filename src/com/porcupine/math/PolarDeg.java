@@ -9,7 +9,7 @@ import com.porcupine.math.Calc.Rad;
 /**
  * Polar coordinate in degrees
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PolarDeg {
 	/** angle in degrees */

@@ -29,7 +29,7 @@ import com.porcupine.color.RGB;
 /**
  * Overlay panel for paused game.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelGamePause extends PanelGui {
 

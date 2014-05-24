@@ -23,14 +23,14 @@ import com.porcupine.color.RGB;
 /**
  * Main menu panel
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelDialogModal extends PanelGui {
 
 	/**
 	 * Dialog click handler
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public interface IDialogListener {
 		/**

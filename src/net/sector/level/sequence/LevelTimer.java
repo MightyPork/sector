@@ -4,7 +4,7 @@ package net.sector.level.sequence;
 /**
  * Level count-down timer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LevelTimer {
 	private long original = 0;

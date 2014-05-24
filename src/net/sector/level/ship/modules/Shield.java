@@ -18,7 +18,7 @@ import com.porcupine.math.Calc;
 /**
  * Energy shield renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Shield {
 

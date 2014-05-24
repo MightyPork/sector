@@ -26,7 +26,7 @@ import com.porcupine.util.StringUtils;
 /**
  * Level bundle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LevelBundle implements Comparable<LevelBundle> {
 

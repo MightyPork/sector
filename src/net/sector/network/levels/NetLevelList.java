@@ -12,7 +12,7 @@ import net.sector.util.Log;
 /**
  * List of profile entries
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NetLevelList extends ArrayList<NetLevelContainer> {
 

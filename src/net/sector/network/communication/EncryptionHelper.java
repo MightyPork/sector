@@ -12,7 +12,7 @@ import net.sector.util.Log;
  * Some algorithms used for the server-client communication and general purpose
  * hashing.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EncryptionHelper {
 

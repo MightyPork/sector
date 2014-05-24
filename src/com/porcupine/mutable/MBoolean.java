@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable boolean
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MBoolean extends AbstractMutable<Boolean> {
 	/**

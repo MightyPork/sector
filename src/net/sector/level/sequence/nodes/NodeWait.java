@@ -14,7 +14,7 @@ import com.porcupine.util.StringUtils;
 /**
  * "Pause" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeWait extends LevelNodeBase {
 

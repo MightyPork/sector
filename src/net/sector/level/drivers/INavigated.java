@@ -13,7 +13,7 @@ import com.porcupine.coord.Vec;
 /**
  * Navigator controlled entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface INavigated {
 	/**

@@ -9,7 +9,7 @@ import com.porcupine.math.Calc;
 /**
  * HSV color
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HSV {
 

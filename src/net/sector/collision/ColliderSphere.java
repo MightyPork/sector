@@ -13,7 +13,7 @@ import com.porcupine.math.Calc;
 /**
  * Simple spheric collider
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ColliderSphere extends Collider {
 

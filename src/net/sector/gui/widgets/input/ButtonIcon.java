@@ -13,7 +13,7 @@ import com.porcupine.coord.CoordI;
 /**
  * Button with icon
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ButtonIcon extends Button {
 

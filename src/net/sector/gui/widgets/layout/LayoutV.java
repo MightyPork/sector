@@ -11,7 +11,7 @@ import com.porcupine.math.Calc;
 /**
  * Vertical layout widget
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LayoutV extends LayoutBase {
 

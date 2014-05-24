@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
 /**
  * Utilities to store and load objects to streams.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 
 @SuppressWarnings("javadoc")

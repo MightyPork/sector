@@ -27,7 +27,7 @@ import com.porcupine.util.StringUtils;
 /**
  * 2D collider map with Z-axis zones
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Scene {
 
@@ -73,7 +73,7 @@ public class Scene {
 	/**
 	 * Zone of entities within this collider.
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	private class ColliderZone extends HashSet<Entity> {
 

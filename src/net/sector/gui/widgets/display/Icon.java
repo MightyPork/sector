@@ -14,7 +14,7 @@ import com.porcupine.coord.CoordI;
 /**
  * Icon 32x32 from texture sheet
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Icon extends Widget {
 

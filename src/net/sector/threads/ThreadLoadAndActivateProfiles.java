@@ -11,7 +11,7 @@ import net.sector.util.Log;
 /**
  * Thread activating all user profiles in SuperContext.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ThreadLoadAndActivateProfiles extends Thread {
 	/** Thread status */

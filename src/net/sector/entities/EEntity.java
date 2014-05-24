@@ -4,7 +4,7 @@ package net.sector.entities;
 /**
  * Entity type
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EEntity {
 	/** Shot, bullet, rocket etc. by aliens */

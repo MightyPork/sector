@@ -24,7 +24,7 @@ import com.porcupine.color.RGB;
 /**
  * Highscore panel for local and internal levels
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelHiscoreLocal extends PanelGui {
 

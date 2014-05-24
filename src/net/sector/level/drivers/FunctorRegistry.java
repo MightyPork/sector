@@ -11,7 +11,7 @@ import net.sector.util.Log;
 /**
  * Entity registry for easier spawning
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FunctorRegistry {
 

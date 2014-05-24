@@ -13,7 +13,7 @@ import com.porcupine.coord.Vec;
 /**
  * Entity interface for physics calculations
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IPhysEntity extends IDamageable {
 	public Coord getPos();

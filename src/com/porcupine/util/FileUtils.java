@@ -15,7 +15,7 @@ import net.sector.util.Log;
 /**
  * Utilities for filesystem
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FileUtils {
 

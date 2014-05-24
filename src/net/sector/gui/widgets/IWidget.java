@@ -8,7 +8,7 @@ import com.porcupine.coord.Rect;
 /**
  * GUI widget interface
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IWidget {
 

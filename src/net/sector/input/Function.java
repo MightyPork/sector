@@ -4,7 +4,7 @@ package net.sector.input;
 /**
  * Function object with return type
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @param <T> return type
  */
 public interface Function<T> {

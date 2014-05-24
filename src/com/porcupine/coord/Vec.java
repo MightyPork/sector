@@ -4,7 +4,7 @@ package com.porcupine.coord;
 /**
  * Vector in 2D/3D space.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Vec extends Coord {
 

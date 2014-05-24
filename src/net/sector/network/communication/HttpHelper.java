@@ -31,7 +31,7 @@ import org.apache.http.params.HttpParams;
 /**
  * Http connection helper (GET and POST, file download)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HttpHelper {
 

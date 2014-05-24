@@ -14,7 +14,7 @@ import com.porcupine.coord.Coord;
 /**
  * Entity registry for easier spawning
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityRegistry {
 

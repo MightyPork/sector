@@ -9,7 +9,7 @@ import com.porcupine.coord.Coord;
 /**
  * Star particle renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleStarRenderer extends ParticleRendererPlain {
 	/**

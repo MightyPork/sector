@@ -4,7 +4,7 @@ package com.porcupine.ion;
 /**
  * Byte marks used to structure data in Ion files.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class IonMarks {
 

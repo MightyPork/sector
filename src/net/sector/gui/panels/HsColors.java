@@ -7,7 +7,7 @@ import com.porcupine.color.RGB;
 /**
  * Colors used in all highscore tables
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HsColors {
 	/** Score number */

@@ -14,7 +14,7 @@ import com.porcupine.color.RGB;
 /**
  * Class which renders starfield behind scene but in front of a fog.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class StarfieldRenderer {
 

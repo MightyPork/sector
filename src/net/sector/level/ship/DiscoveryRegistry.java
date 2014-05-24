@@ -15,7 +15,7 @@ import com.porcupine.util.VarargsParser;
 /**
  * Discovery registry.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class DiscoveryRegistry {
 	private static Map<String, DiscoveryEntry> discoveries = new HashMap<String, DiscoveryEntry>();
@@ -199,7 +199,7 @@ public class DiscoveryRegistry {
 	/**
 	 * Discovery entry for Discovery Registry
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class DiscoveryEntry {
 		private String label;

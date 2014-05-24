@@ -13,7 +13,7 @@ import com.porcupine.coord.Coord;
 /**
  * Passive text label
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class TextDouble extends Widget {
 

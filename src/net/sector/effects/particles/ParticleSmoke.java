@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * Smoke particle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleSmoke extends Particle {
 

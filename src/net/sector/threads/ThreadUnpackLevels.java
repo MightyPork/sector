@@ -11,7 +11,7 @@ import net.sector.util.Log;
 /**
  * Thread checking version of the latest release.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ThreadUnpackLevels extends Thread {
 	public static ThreadUnpackLevels instance = null;

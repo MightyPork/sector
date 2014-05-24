@@ -10,7 +10,7 @@ import com.porcupine.math.Calc;
 /**
  * Ship energy system
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EnergySystem {
 

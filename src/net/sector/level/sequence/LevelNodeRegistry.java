@@ -14,7 +14,7 @@ import org.jdom2.Element;
 /**
  * Entity registry for easier spawning
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LevelNodeRegistry {
 

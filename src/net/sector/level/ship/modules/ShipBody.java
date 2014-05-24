@@ -31,7 +31,7 @@ import com.porcupine.math.Calc;
 /**
  * Container for ship body pieces
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ShipBody implements IInputHandler {
 

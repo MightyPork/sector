@@ -9,7 +9,7 @@ import com.porcupine.mutable.AbstractMutable;
 /**
  * Mutable entity reference
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MEntity extends AbstractMutable<Entity> {
 

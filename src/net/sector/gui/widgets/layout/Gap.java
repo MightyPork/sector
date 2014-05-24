@@ -9,7 +9,7 @@ import com.porcupine.coord.Coord;
 /**
  * Space
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Gap extends Widget {
 

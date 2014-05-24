@@ -7,7 +7,7 @@ import com.porcupine.coord.Coord;
 /**
  * Polar coordinate
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Polar {
 	/** angle in radians */

@@ -25,13 +25,13 @@ import com.porcupine.coord.Coord;
 /**
  * Capture input dialog - set controls
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelDialogCaptureInput extends PanelGui {
 	/**
 	 * Dialog click handler
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public interface ICaptureInputDialogListener {
 		/**

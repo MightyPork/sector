@@ -8,7 +8,7 @@ import net.sector.gui.screens.Screen;
 /**
  * Empty do-nothing panel, used in Screens with no Gui instead of NULL.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelEmpty extends Panel {
 

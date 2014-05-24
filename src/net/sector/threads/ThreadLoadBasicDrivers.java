@@ -10,7 +10,7 @@ import net.sector.util.Log;
 /**
  * Load default drivers
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ThreadLoadBasicDrivers extends Thread {
 

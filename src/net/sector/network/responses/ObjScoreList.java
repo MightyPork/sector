@@ -8,7 +8,7 @@ import java.util.Collections;
 /**
  * List of scores for level
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjScoreList extends ArrayList<ObjScoreInfo> {
 

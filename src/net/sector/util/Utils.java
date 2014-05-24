@@ -15,7 +15,7 @@ import com.porcupine.util.FileUtils;
 /**
  * Sector's utils class
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Utils {
 

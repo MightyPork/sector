@@ -19,7 +19,7 @@ import com.porcupine.coord.Vec;
 /**
  * Panel class, control module for screen.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Panel implements IInputHandler {
 

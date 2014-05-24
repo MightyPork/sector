@@ -13,7 +13,7 @@ import org.jdom2.Element;
 /**
  * Level algorithm node - base class.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class LevelNodeBase {
 	private LevelNodeBase parent;

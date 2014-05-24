@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * List of AI tasks
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class TaskList extends ArrayList<AiTask> {
 

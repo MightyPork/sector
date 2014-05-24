@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable double
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MDouble extends AbstractMutable<Double> {
 	/**

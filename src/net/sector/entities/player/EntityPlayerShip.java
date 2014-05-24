@@ -27,7 +27,7 @@ import com.porcupine.math.Calc;
 /**
  * Player ship entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityPlayerShip extends Entity implements IScoreCounter, IInputHandler {
 

@@ -4,7 +4,7 @@ package com.porcupine.ion;
 /**
  * Optional ionizable
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IonizableOptional extends Ionizable {
 	/**

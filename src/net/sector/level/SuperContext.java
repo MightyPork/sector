@@ -16,7 +16,7 @@ import com.porcupine.ion.Ion;
 /**
  * Super context (global)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class SuperContext {
 

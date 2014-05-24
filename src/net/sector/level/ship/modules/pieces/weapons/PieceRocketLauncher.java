@@ -18,7 +18,7 @@ import com.porcupine.coord.Vec;
 /**
  * Rocket launcher.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PieceRocketLauncher extends PieceWeaponBase {
 

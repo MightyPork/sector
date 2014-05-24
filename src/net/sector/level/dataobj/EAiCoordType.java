@@ -4,7 +4,7 @@ package net.sector.level.dataobj;
 /**
  * Special AI Coord types
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EAiCoordType {
 	/** Real coordinates */

@@ -16,7 +16,7 @@ import org.jdom2.Element;
 /**
  * "Setup score spawner" node - (score)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeSetupScoreSpawner extends LevelNodeBase {
 

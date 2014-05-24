@@ -4,7 +4,7 @@ package net.sector.level.drivers;
 /**
  * Task type enum
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EAiTaskType {
 	/** Do-something task */

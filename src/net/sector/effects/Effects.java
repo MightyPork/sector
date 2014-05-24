@@ -16,7 +16,7 @@ import com.porcupine.math.Calc;
 /**
  * Effects helper
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Effects {
 	/** RNG */

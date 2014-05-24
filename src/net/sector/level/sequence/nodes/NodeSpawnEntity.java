@@ -21,7 +21,7 @@ import com.porcupine.math.Range;
 /**
  * "Spawn entity" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeSpawnEntity extends LevelNodeBase {
 

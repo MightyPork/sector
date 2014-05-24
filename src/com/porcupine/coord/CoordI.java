@@ -5,7 +5,7 @@ package com.porcupine.coord;
  * Simple integer coordinate class<br>
  * Unlike Coord, this is suitable for using in array indices etc.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class CoordI {
 

@@ -14,7 +14,7 @@ import com.porcupine.coord.Coord;
 /**
  * Base for layouts.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class LayoutBase extends Widget {
 

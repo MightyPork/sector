@@ -10,7 +10,7 @@ import net.sector.util.Log;
 
 
 /**
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class CountryList {
 	private static final boolean DEBUG = Constants.LOG_COUNTRIES;
@@ -20,7 +20,7 @@ public class CountryList {
 	/**
 	 * Country list entry
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static class Country implements Comparable<Country> {
 		/** Tow-letter country code */

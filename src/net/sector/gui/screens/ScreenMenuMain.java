@@ -8,7 +8,7 @@ import net.sector.sounds.Music;
 /**
  * main menu screen
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScreenMenuMain extends Screen {
 

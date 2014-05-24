@@ -11,7 +11,7 @@ import com.porcupine.ion.AbstractIonList;
 /**
  * A highscore table
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HighscoreTable extends AbstractIonList<HighscoreEntry> {
 

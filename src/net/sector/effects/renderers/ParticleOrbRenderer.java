@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * orb particle renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleOrbRenderer extends ParticleRendererBlend {
 	/**

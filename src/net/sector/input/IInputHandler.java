@@ -8,7 +8,7 @@ import com.porcupine.coord.Vec;
 /**
  * Input event handler
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IInputHandler {
 	/**

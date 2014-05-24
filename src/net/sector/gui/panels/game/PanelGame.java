@@ -37,7 +37,7 @@ import com.porcupine.util.StringUtils;
 /**
  * panel animating the 3D game
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelGame extends Panel {
 

@@ -12,7 +12,7 @@ import net.sector.level.ship.ShipBundle;
  * other stuff.<br>
  * Current level and set of levels is handled by the GameContext.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class GameCursor {
 

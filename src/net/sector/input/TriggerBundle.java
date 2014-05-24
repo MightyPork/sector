@@ -9,7 +9,7 @@ import org.lwjgl.input.Keyboard;
 /**
  * Bundle representing input configuration for triggers.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class TriggerBundle {
 	/** Detected event */

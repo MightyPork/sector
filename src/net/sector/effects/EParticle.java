@@ -4,7 +4,7 @@ package net.sector.effects;
 /**
  * Enum particle types
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EParticle {
 	/** fire */

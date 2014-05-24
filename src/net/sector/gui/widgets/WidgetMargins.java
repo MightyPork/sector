@@ -4,7 +4,7 @@ package net.sector.gui.widgets;
 /**
  * Margins container class
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class WidgetMargins {
 	/** left margin */

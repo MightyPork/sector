@@ -11,7 +11,7 @@ import com.porcupine.math.Calc;
 /**
  * Universal data storage system
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Ion {
 

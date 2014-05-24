@@ -7,7 +7,7 @@ import com.porcupine.math.Calc;
 /**
  * Rectangle determined by two coordinates - min and max.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Rect {
 

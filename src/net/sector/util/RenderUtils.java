@@ -12,7 +12,7 @@ import com.porcupine.coord.Rect;
 /**
  * Render utilities
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class RenderUtils {
 

@@ -11,7 +11,7 @@ import net.sector.entities.Entity;
 /**
  * Wave of entities
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EnemyWave extends HashSet<Entity> {
 

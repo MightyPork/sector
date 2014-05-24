@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Binary particle renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleBinaryRenderer extends ParticleRendererPlain {
 	/**

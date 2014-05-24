@@ -28,7 +28,7 @@ import net.sector.util.Log;
 /**
  * Main menu panel
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PanelMenu extends PanelGui {
 	private static final int EXIT = 0;

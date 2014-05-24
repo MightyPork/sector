@@ -15,7 +15,7 @@ import com.porcupine.coord.CoordI;
 /**
  * ship designer table
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ShipDesignerShop extends ShipDesignerBase {
 

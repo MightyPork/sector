@@ -16,7 +16,7 @@ import com.porcupine.coord.Vec;
 /**
  * Frame for widgets (with shadow and border + background)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class WindowFrame extends Widget {
 

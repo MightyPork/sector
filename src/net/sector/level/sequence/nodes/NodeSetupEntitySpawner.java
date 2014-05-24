@@ -16,7 +16,7 @@ import org.jdom2.Element;
 /**
  * "Setup entity spawner" node - (ships)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeSetupEntitySpawner extends LevelNodeBase {
 

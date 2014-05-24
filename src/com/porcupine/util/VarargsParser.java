@@ -14,7 +14,7 @@ import java.util.LinkedHashMap;
  * Map&lt;String, Integer&gt; args = new VarargsParser&lt;String, Integer&gt;().parse(array);
  * </pre>
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  * @param <K> Type for Map keys
  * @param <V> Type for Map values
  */

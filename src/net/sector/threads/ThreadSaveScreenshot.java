@@ -19,7 +19,7 @@ import net.sector.util.Utils;
 /**
  * Thread for saving screenshot
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ThreadSaveScreenshot extends Thread {
 

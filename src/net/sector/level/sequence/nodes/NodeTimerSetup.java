@@ -12,7 +12,7 @@ import org.jdom2.Element;
 /**
  * "Setup Timer" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeTimerSetup extends LevelNodeBase {
 

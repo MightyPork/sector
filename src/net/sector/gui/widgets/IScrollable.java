@@ -7,7 +7,7 @@ import net.sector.gui.widgets.input.Scrollbar;
 /**
  * Scrollable element
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IScrollable {
 

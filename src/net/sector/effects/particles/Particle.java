@@ -15,7 +15,7 @@ import com.porcupine.coord.Vec;
 /**
  * Particle pseudo-entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Particle implements Comparable<Particle> {
 

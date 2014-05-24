@@ -14,7 +14,7 @@ import com.porcupine.ion.IonizableOptional;
 /**
  * Hiscore entry (score - name)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class HighscoreEntry implements Comparable<HighscoreEntry>, IonizableOptional {
 	/** Score */

@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable string
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MString extends AbstractMutable<String> {
 	/**

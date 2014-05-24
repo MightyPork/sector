@@ -5,7 +5,7 @@ package com.porcupine.time;
  * Class for counting FPS in games.<br>
  * This class can be used also as a simple frequency meter - output is in Hz.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FpsMeter {
 

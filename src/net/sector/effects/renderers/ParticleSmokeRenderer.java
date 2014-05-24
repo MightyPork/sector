@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Smoke particle renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleSmokeRenderer extends ParticleRendererPlain {
 	/**

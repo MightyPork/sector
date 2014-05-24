@@ -15,7 +15,7 @@ import com.porcupine.math.Range;
 /**
  * Check if drone is in rect
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FnIsInRect extends FunctorBase {
 

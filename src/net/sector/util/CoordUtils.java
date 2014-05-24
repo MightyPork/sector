@@ -10,7 +10,7 @@ import com.porcupine.math.Polar;
 /**
  * Functions for advanced coordinate manipulation.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class CoordUtils {
 

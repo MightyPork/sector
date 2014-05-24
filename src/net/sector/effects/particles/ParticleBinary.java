@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * "Binary" particle (animated green 0s and 1s in splash screen)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleBinary extends Particle {
 

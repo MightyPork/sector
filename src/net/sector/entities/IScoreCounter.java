@@ -4,7 +4,7 @@ package net.sector.entities;
 /**
  * This be an interface for player's ship, which counts score.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface IScoreCounter {
 	/**

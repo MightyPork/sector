@@ -21,7 +21,7 @@ import com.porcupine.math.PolarDeg;
 /**
  * Navigable entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class EntityNavigable extends Entity implements INavigated {
 

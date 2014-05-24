@@ -4,7 +4,7 @@ package net.sector.threads;
 /**
  * Loading thread status enumeration
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EThreadStatus {
 	UNSTARTED, SUCCESS, FAILURE, WORKING;

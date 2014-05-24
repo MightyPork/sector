@@ -9,7 +9,7 @@ import com.porcupine.math.Calc;
 /**
  * Coordinate class, object with three or two double coordinates.<br>
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Coord {
 	/** Zero Coord */

@@ -15,7 +15,7 @@ import com.porcupine.math.Range;
 /**
  * Score generator
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ScoreSpawner extends SpawnerBase {
 

@@ -18,7 +18,7 @@ import com.porcupine.math.Calc;
 /**
  * Table of pieces.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PieceRegistry {
 

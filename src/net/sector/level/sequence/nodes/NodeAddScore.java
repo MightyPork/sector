@@ -16,7 +16,7 @@ import com.porcupine.math.Range;
 /**
  * "Add score" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeAddScore extends LevelNodeBase {
 

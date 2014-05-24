@@ -4,7 +4,7 @@ package com.porcupine.mutable;
 /**
  * Mutable integer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MInt extends AbstractMutable<Integer> {
 	/**

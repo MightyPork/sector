@@ -11,7 +11,7 @@ import net.sector.level.drivers.INavigated;
 /**
  * Check if drone is in rect
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FnIsTail extends FunctorBase {
 

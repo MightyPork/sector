@@ -14,7 +14,7 @@ import com.porcupine.math.Calc;
 /**
  * Fire / explode particle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleFire extends Particle {
 

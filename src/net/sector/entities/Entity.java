@@ -24,7 +24,7 @@ import com.porcupine.math.Calc;
  * Entity object: something that moves, reacts to collisions and does other cool
  * stuff.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Entity implements IPhysEntity, Comparable<Entity> {
 

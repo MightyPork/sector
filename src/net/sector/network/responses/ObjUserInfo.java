@@ -4,7 +4,7 @@ package net.sector.network.responses;
 /**
  * User info entry in user list
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjUserInfo {
 

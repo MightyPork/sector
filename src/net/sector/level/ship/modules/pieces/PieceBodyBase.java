@@ -7,7 +7,7 @@ import net.sector.models.wavefront.loader.RenderModel;
 /**
  * Ship body piece
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class PieceBodyBase extends Piece {
 

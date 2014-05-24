@@ -20,7 +20,7 @@ import org.jdom2.Element;
 /**
  * main class for server-client communication
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class LeaderboardClient {
 

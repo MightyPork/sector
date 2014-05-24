@@ -14,7 +14,7 @@ import com.porcupine.coord.Coord;
 /**
  * Passive label
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class MenuTitle extends Widget {
 

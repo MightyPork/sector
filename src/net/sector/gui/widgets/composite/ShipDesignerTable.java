@@ -26,14 +26,14 @@ import com.porcupine.math.Calc.Deg;
 /**
  * ship designer table
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ShipDesignerTable extends ShipDesignerBase {
 
 	/**
 	 * Designer edit modes
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public enum EdMode {
 
@@ -151,7 +151,7 @@ public class ShipDesignerTable extends ShipDesignerBase {
 	/**
 	 * Function modifying given piece
 	 * 
-	 * @author MightyPork
+	 * @author Ondřej Hruška (MightyPork)
 	 */
 	public static interface PieceModifyFn {
 		/**

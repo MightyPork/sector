@@ -15,7 +15,7 @@ import com.porcupine.math.Calc;
 /**
  * Experimental (= ugly) star particle
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleStar extends Particle {
 

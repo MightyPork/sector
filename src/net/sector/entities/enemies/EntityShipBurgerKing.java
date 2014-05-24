@@ -19,7 +19,7 @@ import com.porcupine.coord.Vec;
 /**
  * Enemy burger entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityShipBurgerKing extends EntityNavigable {
 	private static PhysModel burgerModel = Models.enemyBurgerKing;

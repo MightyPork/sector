@@ -4,7 +4,7 @@ package net.sector.network.responses;
 /**
  * Table of informations
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjInfoTable {
 

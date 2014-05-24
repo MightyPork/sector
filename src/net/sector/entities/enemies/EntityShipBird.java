@@ -20,7 +20,7 @@ import com.porcupine.coord.Vec;
 /**
  * Enemy ship entity
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EntityShipBird extends EntityNavigable {
 

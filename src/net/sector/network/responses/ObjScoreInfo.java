@@ -4,7 +4,7 @@ package net.sector.network.responses;
 /**
  * Score entry in score list
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjScoreInfo implements Comparable<ObjScoreInfo> {
 

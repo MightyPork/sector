@@ -10,7 +10,7 @@ import net.sector.util.Log;
 /**
  * Table of discoveries
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class DiscoveryTable extends HashMap<String, Integer> {
 

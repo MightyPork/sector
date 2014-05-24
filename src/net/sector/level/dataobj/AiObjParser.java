@@ -12,7 +12,7 @@ import com.porcupine.math.Range;
  * Utility for converting Object to data types; Can also convert strings to data
  * types.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class AiObjParser {
 

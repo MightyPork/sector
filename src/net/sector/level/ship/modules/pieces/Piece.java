@@ -27,7 +27,7 @@ import com.porcupine.math.Calc.Deg;
 /**
  * Ship piece
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Piece implements IInputHandler {
 

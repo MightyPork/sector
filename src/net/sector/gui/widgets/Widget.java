@@ -11,7 +11,7 @@ import com.porcupine.coord.Rect;
 /**
  * Abstract widget class
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public abstract class Widget implements IWidget {
 

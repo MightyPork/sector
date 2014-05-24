@@ -10,7 +10,7 @@ import org.jdom2.Element;
 /**
  * "Enable spawner" node
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class NodeSpawnerEnable extends LevelNodeBase {
 

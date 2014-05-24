@@ -21,7 +21,7 @@ import com.porcupine.coord.Vec;
  * "spare" spared entity types (PLAYER|NATURAL)<br>
  * *
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class FnCanShoot extends FunctorBase {
 

@@ -20,7 +20,7 @@ import com.porcupine.coord.CoordI;
 /**
  * Passive text label
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Text extends Widget {
 

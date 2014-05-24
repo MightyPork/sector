@@ -10,7 +10,7 @@ import net.sector.util.Log;
 /**
  * AI drone controller with tasks
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class Navigator {
 	private INavigated drone;

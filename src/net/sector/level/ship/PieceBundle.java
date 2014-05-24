@@ -12,7 +12,7 @@ import com.porcupine.math.Calc;
 /**
  * Object describing ship piece
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class PieceBundle {
 	/** RNG */

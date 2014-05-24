@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * Ionizable Arraylist
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class IonList extends ArrayList<Object> implements Ionizable {

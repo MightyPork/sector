@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Text input for countries
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class TextInputCountry extends TextInput {
 

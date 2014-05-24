@@ -16,7 +16,7 @@ import com.porcupine.math.Range;
 /**
  * Asteroid field generator
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class EnemySpawner extends SpawnerBase {
 

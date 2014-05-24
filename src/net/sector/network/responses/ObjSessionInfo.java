@@ -4,7 +4,7 @@ package net.sector.network.responses;
 /**
  * Session info (response from login request and similar)
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ObjSessionInfo {
 

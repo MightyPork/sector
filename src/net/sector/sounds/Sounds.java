@@ -18,7 +18,7 @@ import com.porcupine.math.Calc;
 /**
  * Preloaded sounds.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 @SuppressWarnings("javadoc")
 public class Sounds {

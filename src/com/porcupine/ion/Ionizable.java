@@ -11,7 +11,7 @@ import java.io.OutputStream;
  * All classes implementing Ionizable must be registered to {@link Ion} using
  * Ion.registerIonizable(obj.class).
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public interface Ionizable {
 	/**

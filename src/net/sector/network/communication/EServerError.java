@@ -4,7 +4,7 @@ package net.sector.network.communication;
 /**
  * Enum of server errors, for easier handling than numbers.
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public enum EServerError {
 

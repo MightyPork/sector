@@ -11,7 +11,7 @@ import com.porcupine.coord.Coord;
 /**
  * Shard particle renderer
  * 
- * @author MightyPork
+ * @author Ondřej Hruška (MightyPork)
  */
 public class ParticleShardRenderer extends ParticleRendererPlain {
 	/**
